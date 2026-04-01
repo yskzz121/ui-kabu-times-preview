@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-<html lang="ja" data-theme="light">
+<html lang="ko" data-theme="light">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Atlas Daily — 2026年4月1日 朝刊</title>
-<meta property="og:title" content="Atlas Daily — 2026年4月1日 朝刊">
-<meta property="og:description" content="イラン戦争終結の光明 — ペゼシュキアン大統領「必要な意志あり」、トランプ「2〜3週間で撤退」。S&P 500 +2.91%、NASDAQ +3.83%、ダウ1,125pt急騰。">
+<title>Atlas Daily — 2026년 4월 1일 조간</title>
+<meta property="og:title" content="Atlas Daily — 2026년 4월 1일 조간">
+<meta property="og:description" content="이란 전쟁 종결의 서광 — 페제시키안 대통령 '필요한 의지 있다', 트럼프 '2~3주 내 철수'. S&P 500 +2.91%, NASDAQ +3.83%, 다우 1,125pt 급등.">
 <meta property="og:image" content="https://atlasfinancials.github.io/ui-kabu-times/assets/og-image.png">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://atlasfinancials.github.io/ui-kabu-times/morning/2026/04/1.html">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" type="image/png" href="https://atlasfinancials.github.io/ui-kabu-times/assets/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@400;700;800&family=Noto+Serif+JP:wght@300;400;700&family=Noto+Sans+JP:wght@400;500;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@400;700;800&family=Noto+Serif+JP:wght@300;400;700&family=Noto+Sans+JP:wght@400;500;700&family=Noto+Sans+KR:wght@400;500;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
 /* ==========================================
    CSS Variables — Atlas Brand
@@ -641,7 +641,7 @@ body {
   letter-spacing: .02em;
 }
 .ed-take-label::after {
-  content: ' \25B8 \30DB\30D0\30FC\3067\8868\793A';
+  content: ' \25B8 \D638\BC84\B85C \D45C\C2DC';
   font-weight: 400;
   font-size: 10px;
   color: var(--slate-lt);
@@ -1113,7 +1113,7 @@ body {
   .calendar-event { order: 4; flex-basis: 100%; font-size: 13px; }
   .calendar-detail { order: 5; flex-basis: 100%; }
 
-  .ed-take-label::after { content: ' \25B8 \30BF\30C3\30D7\3067\8868\793A'; }
+  .ed-take-label::after { content: ' \25B8 \D0ED\D558\C5EC \D45C\C2DC'; }
 }
 
 @media (max-width: 480px) {
@@ -1238,6 +1238,12 @@ body {
 [data-theme="dark"] .ed-hero{background:linear-gradient(135deg,rgba(212,168,67,0.06) 0%,rgba(224,85,85,0.03) 50%,rgba(15,24,41,0) 100%)}
 [data-theme="dark"] .section-hero-caption{background:transparent}
 [data-theme="dark"] .mobile-menu{background:rgba(15,24,41,0.98)}
+
+/* Korean font override */
+body { font-family: 'Noto Sans KR', var(--font-ui); }
+.summary-text, .top-story-body, .news-card-excerpt, .keyword-overview, .editorial-body {
+  font-family: 'Noto Sans KR', var(--font-body);
+}
 </style>
 </head>
 <body>
@@ -1250,33 +1256,33 @@ body {
       <span class="nav-sub">Powered by U&amp;I CO., LTD.</span>
     </a>
     <div class="nav-links">
-      <a href="https://atlasfinancials.github.io/ui-kabu-times/morning/">朝刊アーカイブ</a>
-      <a href="https://atlasfinancials.github.io/ui-kabu-times/" class="active">朝刊</a>
-      <a href="https://atlasfinancials.github.io/ui-kabu-reports/">分析</a>
-      <a href="https://atlasfinancials.github.io/ui-kabu-times/glossary/">用語辞典</a>
-      <a href="https://atlasfinancials.github.io/ui-kabu-reports/join.html" class="nav-cta">入会する</a>
-      <div class="lang-switch"><span class="lang-active">🇯🇵</span><a href="1-en.html">🇺🇸</a><a href="1-zh.html">🇭🇰</a><a href="1-ko.html">🇰🇷</a></div>
-      <button class="font-scale-btn" aria-label="文字サイズ切替" onclick="cycleFontScale()"><span class="fs-sm">A</span><span class="fs-lg">A</span><span class="fs-level">1/4</span></button>
-      <button class="theme-toggle" id="themeToggle" aria-label="テーマ切替" onclick="toggleTheme()">🌙</button>
+      <a href="https://atlasfinancials.github.io/ui-kabu-times/morning/">조간 아카이브</a>
+      <a href="https://atlasfinancials.github.io/ui-kabu-times/" class="active">조간</a>
+      <a href="https://atlasfinancials.github.io/ui-kabu-reports/">분석</a>
+      <a href="https://atlasfinancials.github.io/ui-kabu-times/glossary/">용어사전</a>
+      <a href="https://atlasfinancials.github.io/ui-kabu-reports/join.html" class="nav-cta">가입하기</a>
+      <div class="lang-switch"><a href="1.html">🇯🇵</a><a href="1-en.html">🇺🇸</a><a href="1-zh.html">🇭🇰</a><span class="lang-active">🇰🇷</span></div>
+      <button class="font-scale-btn" aria-label="글자 크기 전환" onclick="cycleFontScale()"><span class="fs-sm">A</span><span class="fs-lg">A</span><span class="fs-level">1/4</span></button>
+      <button class="theme-toggle" id="themeToggle" aria-label="테마 전환" onclick="toggleTheme()">🌙</button>
     </div>
     <div class="nav-mobile-actions">
-      <div class="lang-switch"><span class="lang-active">🇯🇵</span><a href="1-en.html">🇺🇸</a><a href="1-zh.html">🇭🇰</a><a href="1-ko.html">🇰🇷</a></div>
-      <button class="font-scale-btn" aria-label="文字サイズ切替" onclick="cycleFontScale()"><span class="fs-sm">A</span><span class="fs-lg">A</span><span class="fs-level">1/4</span></button>
-      <button class="theme-toggle" id="themeToggleMobile" aria-label="テーマ切替" onclick="toggleTheme()">🌙</button>
-      <button class="nav-hamburger" id="navHamburger" aria-label="メニュー">☰</button>
+      <div class="lang-switch"><a href="1.html">🇯🇵</a><a href="1-en.html">🇺🇸</a><a href="1-zh.html">🇭🇰</a><span class="lang-active">🇰🇷</span></div>
+      <button class="font-scale-btn" aria-label="글자 크기 전환" onclick="cycleFontScale()"><span class="fs-sm">A</span><span class="fs-lg">A</span><span class="fs-level">1/4</span></button>
+      <button class="theme-toggle" id="themeToggleMobile" aria-label="테마 전환" onclick="toggleTheme()">🌙</button>
+      <button class="nav-hamburger" id="navHamburger" aria-label="메뉴">☰</button>
     </div>
   </nav>
 </header>
 <div class="mobile-menu" id="mobileMenu">
-  <a href="https://atlasfinancials.github.io/ui-kabu-times/morning/">朝刊アーカイブ</a>
-  <a href="https://atlasfinancials.github.io/ui-kabu-times/extra/">号外</a>
-  <a href="https://atlasfinancials.github.io/ui-kabu-times/glossary/">用語辞典</a>
-  <a href="https://atlasfinancials.github.io/ui-kabu-reports/">決算分析</a>
+  <a href="https://atlasfinancials.github.io/ui-kabu-times/morning/">조간 아카이브</a>
+  <a href="https://atlasfinancials.github.io/ui-kabu-times/extra/">호외</a>
+  <a href="https://atlasfinancials.github.io/ui-kabu-times/glossary/">용어사전</a>
+  <a href="https://atlasfinancials.github.io/ui-kabu-reports/">실적 분석</a>
 </div>
 
 <!-- ===== Newspaper Header ===== -->
 <header class="paper-header">
-  <div class="paper-date">2026年4月1日（水曜日）</div>
+  <div class="paper-date">2026년 4월 1일 (수요일)</div>
   <div class="paper-logo">
     <h1 class="paper-title">Atlas Daily</h1>
   </div>
@@ -1290,15 +1296,15 @@ body {
   <section class="section-gap">
     <div class="section-label">
       <span class="section-label-icon">📝</span>
-      <span class="section-label-text">昨夜のマーケットサマリー</span>
+      <span class="section-label-text">어젯밤 시장 요약</span>
       <span class="section-label-line"></span>
     </div>
 
     <div class="card card-pad">
       <div class="summary-text">
-        <p><span class="summary-num-label">1</span>イラン戦争終結への期待が高まり、米国市場は5月以来の最大の上昇を記録した。イランのペゼシュキアン大統領がEU議長との電話会談で「戦争終結の必要な意志がある」と表明。さらにトランプ大統領が「2〜3週間で撤退する」と発言したことで、投資家心理が大幅に改善。S&amp;P 500は<span class="summary-num up">+2.91%</span>の<span class="summary-num">6,528.52</span>、NASDAQは<span class="summary-num up">+3.83%</span>の<span class="summary-num">21,590.63</span>、ダウは<span class="summary-num up">+1,125ポイント（+2.49%）</span>の<span class="summary-num">46,341.51</span>で急騰した。</p>
-        <p><span class="summary-num-label">2</span>テクノロジーセクターが上昇を牽引。NVIDIAがMarvell Technologyに20億ドルを出資しAIインフラ同盟を拡大、MRVLは<span class="summary-num up">+12.8%</span>と急騰。NVDA <span class="summary-num up">+5.6%</span>、META <span class="summary-num up">+6.6%</span>、MSFT <span class="summary-num up">+3.1%</span>とメガテック全面高。一方、原油は和平期待を受けてWTI <span class="summary-num">$101.38</span>（<span class="summary-num down">-1.46%</span>）、Brent $105.13（<span class="summary-num down">-1.56%</span>）と反落したが、3月単月ではBrent <span class="summary-num up">+63%</span>（1988年以来最大）、WTI <span class="summary-num up">+51%</span>の歴史的急騰を記録。</p>
-        <p><span class="summary-num-label">3</span>中国とパキスタンが5カ条和平ロードマップを発表し、即時停戦と<span class="term">ホルムズ海峡<span class="tip"><span class="tip-title">ホルムズ海峡（Strait of Hormuz）</span>世界の海上石油輸送の約20%が通過するイランとオマーンの間の狭い水路。イラン戦争で事実上封鎖され、原油価格急騰の最大要因となっている。</span></span>の通航回復を要求。Unilever-McCormickの$650億食品メガ合併が発表されたが市場は懐疑的（UL <span class="summary-num down">-5.0%</span>、MKC <span class="summary-num down">-5.9%</span>）。Nike Q3決算はEPSビートも中国市場20%減警告で時間外下落。バフェットは「Apple売るの早すぎた」と認め、市場が安くなれば再購入する意向を示した。</p>
+        <p><span class="summary-num-label">1</span>이란 전쟁 종결에 대한 기대감이 높아지며 미국 시장은 5월 이후 최대 상승폭을 기록했습니다. 이란의 페제시키안 대통령이 EU 의장과의 전화회담에서 "전쟁 종결에 필요한 의지가 있다"고 밝혔습니다. 또한 트럼프 대통령이 "2~3주 내에 철수한다"고 발언하면서 투자 심리가 크게 개선되었습니다. S&amp;P 500은 <span class="summary-num up">+2.91%</span>의 <span class="summary-num">6,528.52</span>, NASDAQ은 <span class="summary-num up">+3.83%</span>의 <span class="summary-num">21,590.63</span>, 다우는 <span class="summary-num up">+1,125포인트(+2.49%)</span>의 <span class="summary-num">46,341.51</span>로 급등했습니다.</p>
+        <p><span class="summary-num-label">2</span>기술 섹터가 상승을 주도했습니다. NVIDIA가 Marvell Technology에 20억 달러를 출자하여 AI 인프라 동맹을 확대했으며, MRVL은 <span class="summary-num up">+12.8%</span> 급등했습니다. NVDA <span class="summary-num up">+5.6%</span>, META <span class="summary-num up">+6.6%</span>, MSFT <span class="summary-num up">+3.1%</span>로 메가테크 전면 상승세를 보였습니다. 한편 원유는 평화 기대감으로 WTI <span class="summary-num">$101.38</span>(<span class="summary-num down">-1.46%</span>), Brent $105.13(<span class="summary-num down">-1.56%</span>)로 반락했으나, 3월 한 달간 Brent <span class="summary-num up">+63%</span>(1988년 이후 최대), WTI <span class="summary-num up">+51%</span>의 역사적 급등을 기록했습니다.</p>
+        <p><span class="summary-num-label">3</span>중국과 파키스탄이 5개조 평화 로드맵을 발표하여 즉각적인 휴전과 <span class="term">호르무즈 해협<span class="tip"><span class="tip-title">호르무즈 해협(Strait of Hormuz)</span>세계 해상 석유 수송의 약 20%가 통과하는 이란과 오만 사이의 좁은 수로입니다. 이란 전쟁으로 사실상 봉쇄되어 유가 급등의 최대 요인이 되고 있습니다.</span></span>의 항행 회복을 요구했습니다. Unilever-McCormick의 $650억 식품 메가 합병이 발표되었으나 시장은 회의적으로 반응했습니다(UL <span class="summary-num down">-5.0%</span>, MKC <span class="summary-num down">-5.9%</span>). Nike Q3 실적은 EPS 상회에도 불구하고 중국 시장 20% 감소 경고로 시간외 하락했습니다. 버핏은 "Apple을 너무 일찍 팔았다"고 인정하며, 시장이 저렴해지면 재매수할 의향을 밝혔습니다.</p>
       </div>
 
       <div class="summary-tickers">
@@ -1313,7 +1319,7 @@ body {
           <span class="summary-ticker-chg up">+3.83%</span>
         </div>
         <div class="summary-ticker">
-          <span class="summary-ticker-name">ダウ</span>
+          <span class="summary-ticker-name">다우</span>
           <span class="summary-ticker-val">46,341.51</span>
           <span class="summary-ticker-chg up">+2.49%</span>
         </div>
@@ -1323,7 +1329,7 @@ body {
           <span class="summary-ticker-chg down">-12.3%</span>
         </div>
         <div class="summary-ticker">
-          <span class="summary-ticker-name">米10年債</span>
+          <span class="summary-ticker-name">미국 10년물 국채</span>
           <span class="summary-ticker-val">4.321%</span>
           <span class="summary-ticker-chg down">-2.1bp</span>
         </div>
@@ -1345,7 +1351,7 @@ body {
         <div class="summary-ticker">
           <span class="summary-ticker-name">BTC</span>
           <span class="summary-ticker-val">$66,710</span>
-          <span class="summary-ticker-chg">横ばい</span>
+          <span class="summary-ticker-chg">보합</span>
         </div>
       </div>
     </div>
@@ -1355,7 +1361,7 @@ body {
   <section class="section-gap">
     <div class="section-label">
       <span class="section-label-icon">📰</span>
-      <span class="section-label-text">主要ニュース</span>
+      <span class="section-label-text">주요 뉴스</span>
       <span class="section-label-line"></span>
     </div>
 
@@ -1363,28 +1369,28 @@ body {
     <div class="top-story">
       <span class="top-story-badge">TOP STORY</span>
       <div class="section-hero">
-        <img src="https://images.pexels.com/photos/4451721/pexels-photo-4451721.jpeg?auto=compress&cs=tinysrgb&w=1100" alt="ニューヨーク証券取引所ビルのレリーフ" loading="lazy">
+        <img src="https://images.pexels.com/photos/4451721/pexels-photo-4451721.jpeg?auto=compress&cs=tinysrgb&w=1100" alt="뉴욕증권거래소 건물 부조" loading="lazy">
       </div>
       <div class="section-hero-caption">Photo: Pexels</div>
       <span class="news-card-tag geopolitics" style="margin-bottom:10px;display:inline-block">GEOPOLITICS</span>
-      <h2 class="top-story-title">イラン戦争終結の光明 — ペゼシュキアン大統領「必要な意志あり」、トランプ「2〜3週間で撤退」</h2>
+      <h2 class="top-story-title">이란 전쟁 종결의 서광 — 페제시키안 대통령 "필요한 의지 있다", 트럼프 "2~3주 내 철수"</h2>
       <p class="top-story-body">
-        イランのマスード・ペゼシュキアン大統領は3月31日、EU議長との電話会談で「この紛争を終結させる必要な意志を持っている」と表明した。ただし「侵略の繰り返しを防ぐ保証」を条件に挙げており、無条件降伏は引き続き拒否している。一方、トランプ大統領はホワイトハウスで記者団に対し「2週間、おそらく3週間で撤退する」と述べ、米国の軍事目標は概ね達成されたとの認識を示した。同時に「我々は完全にアンチェックド。全てを爆撃した」とも発言し、同盟国に対しては「自分で石油を取りに行け」と苛立ちを露わにした。イラン戦争開始（2月28日）から5週間が経過し、トランプの撤退シグナルとペゼシュキアンの対話姿勢が重なったことで、市場は大幅反発。S&amp;P 500は+2.91%、ダウは1,125ポイント急騰し、5月以来の最大の上昇日となった。しかし、トランプは同時に「取引が成立しなければイランの電力施設と油井を完全に破壊する」とも警告しており、停戦への道のりは依然として不透明だ。
+        이란의 마수드 페제시키안 대통령은 3월 31일 EU 의장과의 전화회담에서 "이 분쟁을 종결시킬 필요한 의지를 가지고 있다"고 밝혔습니다. 다만 "침략의 재발을 방지할 보장"을 조건으로 내세웠으며, 무조건 항복은 계속 거부하고 있습니다. 한편, 트럼프 대통령은 백악관에서 기자단에게 "2주, 아마 3주 내에 철수한다"고 말하며, 미국의 군사 목표는 대부분 달성되었다는 인식을 보였습니다. 동시에 "우리는 완전히 제한 없이 모든 것을 폭격했다"고도 발언했으며, 동맹국에 대해서는 "직접 석유를 가지러 가라"며 불만을 드러냈습니다. 이란 전쟁 개시(2월 28일) 이후 5주가 경과한 가운데, 트럼프의 철수 시그널과 페제시키안의 대화 자세가 겹치면서 시장은 대폭 반등했습니다. S&amp;P 500은 +2.91%, 다우는 1,125포인트 급등하며 5월 이후 최대 상승일을 기록했습니다. 그러나 트럼프는 동시에 "거래가 성사되지 않으면 이란의 발전시설과 유정을 완전히 파괴하겠다"고도 경고하여, 휴전까지의 길은 여전히 불투명합니다.
       </p>
       <div class="why-box positive">
         <span class="why-icon">💡</span>
-        <div><span class="why-label">なぜ重要か:</span> イラン戦争は<span class="term">ホルムズ海峡<span class="tip"><span class="tip-title">ホルムズ海峡</span>世界の海上石油輸送の約20%が通過するイランとオマーンの間の狭い水路。イラン戦争で事実上封鎖され、原油価格急騰の最大要因となっている。</span></span>閉鎖を通じて世界の石油供給の20%を遮断し、Brent原油を3月だけで63%急騰させた。停戦の行方は原油・株式・為替すべてに直結する。</div>
+        <div><span class="why-label">왜 중요한가:</span> 이란 전쟁은 <span class="term">호르무즈 해협<span class="tip"><span class="tip-title">호르무즈 해협</span>세계 해상 석유 수송의 약 20%가 통과하는 이란과 오만 사이의 좁은 수로입니다. 이란 전쟁으로 사실상 봉쇄되어 유가 급등의 최대 요인이 되고 있습니다.</span></span> 봉쇄를 통해 세계 석유 공급의 20%를 차단했으며, Brent 원유를 3월 한 달간 63% 급등시켰습니다. 휴전의 향방은 원유, 주식, 외환 모든 시장에 직결됩니다.</div>
       </div>
-      <!-- 編集部はこう見る -->
+      <!-- 편집부의 시각 -->
       <div class="ed-take">
         <span class="ed-take-icon">🔍</span>
-        <span class="ed-take-label">編集部はこう見る</span>
-        <div class="ed-take-body">トランプの「2〜3週間で撤退」は交渉カードであり、文字通りに受け取るべきではない。<strong>ペゼシュキアンの賠償要求は米国が受け入れる可能性が極めて低く</strong>、交渉の最大障壁となる。市場はシナリオA（楽観的停戦）を織り込みすぎている可能性がある。4月6日のハルグ島期限が次の焦点。</div>
+        <span class="ed-take-label">편집부의 시각</span>
+        <div class="ed-take-body">트럼프의 "2~3주 내 철수"는 협상 카드이며, 문자 그대로 받아들여서는 안 됩니다. <strong>페제시키안의 배상 요구는 미국이 수용할 가능성이 극히 낮으며</strong>, 협상의 최대 장벽이 될 것입니다. 시장은 시나리오A(낙관적 휴전)를 과도하게 반영하고 있을 가능성이 있습니다. 4월 6일 하르그섬 기한이 다음 초점입니다.</div>
       </div>
       <div class="top-story-footer">
         <span class="top-story-source">CNBC / CNN / Euronews</span>
         <span>·</span>
-        <span>2026年3月31日</span>
+        <span>2026년 3월 31일</span>
         <span>·</span>
         <span>Geopolitics</span>
       </div>
@@ -1393,111 +1399,111 @@ body {
     <!-- Sub News Grid -->
     <div class="news-grid">
 
-      <!-- ニュース2: NVIDIA-Marvell -->
+      <!-- 뉴스2: NVIDIA-Marvell -->
       <div class="news-card">
         <div class="news-card-img-wrap">
-          <img class="news-card-img" src="https://images.pexels.com/photos/14887614/pexels-photo-14887614.jpeg?auto=compress&cs=tinysrgb&w=800" alt="コンピューターマザーボードのクローズアップ" loading="lazy">
+          <img class="news-card-img" src="https://images.pexels.com/photos/14887614/pexels-photo-14887614.jpeg?auto=compress&cs=tinysrgb&w=800" alt="컴퓨터 마더보드 클로즈업" loading="lazy">
           <span class="news-card-img-caption">Photo: Pexels</span>
         </div>
         <div class="news-card-meta">
           <span class="news-card-tag tech">TECH</span>
           <span class="news-card-source">Bloomberg / CNBC</span>
         </div>
-        <div class="news-card-title">NVIDIA、Marvellに20億ドル出資 — 「NVLink Fusion」でAI半導体同盟拡大</div>
-        <div class="news-card-excerpt">NVIDIAはMarvell Technologyに20億ドルの株式投資を行い、AIインフラストラクチャの包括的パートナーシップを発表した。MarvellはNVLink Fusion互換のカスタムXPUとネットワーキング機器を供給し、NVIDIAはCPU・ネットワーキング・インターコネクト・AIコンピュートのコア技術を提供する。両社は<span class="term">シリコンフォトニクス<span class="tip"><span class="tip-title">シリコンフォトニクス</span>従来の銅配線の代わりに光（レーザー）を使ってデータを伝送する半導体技術。AI学習に必要な大量のデータ移動を高速・省電力で実現する。</span></span>の共同開発でも合意。「AI Factory」構想のもと、通信ネットワークをAIコンピューティングに活用する新たなアーキテクチャを模索する。MRVL株は+12.8%の$99.05で引け、NVDA株も+5.6%の$174.40で上昇した。</div>
+        <div class="news-card-title">NVIDIA, Marvell에 20억 달러 출자 — 'NVLink Fusion'으로 AI 반도체 동맹 확대</div>
+        <div class="news-card-excerpt">NVIDIA는 Marvell Technology에 20억 달러의 지분 투자를 단행하고 AI 인프라의 포괄적 파트너십을 발표했습니다. Marvell은 NVLink Fusion 호환 커스텀 XPU와 네트워킹 장비를 공급하고, NVIDIA는 CPU, 네트워킹, 인터커넥트, AI 컴퓨팅의 핵심 기술을 제공합니다. 양사는 <span class="term">실리콘 포토닉스<span class="tip"><span class="tip-title">실리콘 포토닉스</span>기존의 구리 배선 대신 빛(레이저)을 사용하여 데이터를 전송하는 반도체 기술입니다. AI 학습에 필요한 대량의 데이터 이동을 고속, 저전력으로 구현합니다.</span></span>의 공동 개발에도 합의했습니다. 'AI Factory' 구상 하에 통신 네트워크를 AI 컴퓨팅에 활용하는 새로운 아키텍처를 모색합니다. MRVL 주가는 +12.8%의 $99.05로 마감했으며, NVDA 주가도 +5.6%의 $174.40으로 상승했습니다.</div>
         <div class="why-box positive">
           <span class="why-icon">💡</span>
-          <div><span class="why-label">なぜ重要か:</span> NVIDIAのエコシステム拡大戦略の一環。カスタムチップとNVIDIA標準プラットフォームの融合は、AI半導体の業界地図を塗り替える可能性がある。</div>
+          <div><span class="why-label">왜 중요한가:</span> NVIDIA 생태계 확대 전략의 일환입니다. 커스텀 칩과 NVIDIA 표준 플랫폼의 융합은 AI 반도체 업계 지도를 재편할 가능성이 있습니다.</div>
         </div>
       </div>
 
-      <!-- ニュース3: 原油歴史的急騰 -->
+      <!-- 뉴스3: 원유 역사적 급등 -->
       <div class="news-card">
         <div class="news-card-img-wrap">
-          <img class="news-card-img" src="https://images.pexels.com/photos/10407689/pexels-photo-10407689.jpeg?auto=compress&cs=tinysrgb&w=800" alt="夜間の石油精製施設" loading="lazy">
+          <img class="news-card-img" src="https://images.pexels.com/photos/10407689/pexels-photo-10407689.jpeg?auto=compress&cs=tinysrgb&w=800" alt="야간 석유 정제 시설" loading="lazy">
           <span class="news-card-img-caption">Photo: Pexels</span>
         </div>
         <div class="news-card-meta">
           <span class="news-card-tag economy">ECONOMY</span>
           <span class="news-card-source">CNBC</span>
         </div>
-        <div class="news-card-title">原油、3月は歴史的急騰月 — Brent +63%は1988年以来最大の月間上昇率</div>
-        <div class="news-card-excerpt">3月はエネルギー市場にとって歴史的な月となった。Brent原油は+63%と、1988年の統計開始以来最大の月間上昇率を記録。WTIも+51%と2020年5月以来の急騰だった。イラン戦争によるホルムズ海峡の事実上の封鎖で、世界の海上石油輸送の約20%が停止。3月31日のセッションでは和平期待から小幅反落し、WTI $101.38（-1.46%）、Brent $105.13（-1.56%）で引けたが、依然として2022年以来の高水準を維持。米国のガソリン平均価格は1ガロン$4を突破し、消費者への影響も拡大している。</div>
+        <div class="news-card-title">원유, 3월 역사적 급등 — Brent +63%는 1988년 이후 최대 월간 상승률</div>
+        <div class="news-card-excerpt">3월은 에너지 시장에 역사적인 달이 되었습니다. Brent 원유는 +63%로 1988년 통계 집계 이후 최대 월간 상승률을 기록했습니다. WTI도 +51%로 2020년 5월 이후 최대 급등이었습니다. 이란 전쟁으로 인한 호르무즈 해협의 사실상 봉쇄로 세계 해상 석유 수송의 약 20%가 중단되었습니다. 3월 31일 세션에서는 평화 기대감으로 소폭 반락하여 WTI $101.38(-1.46%), Brent $105.13(-1.56%)에 마감했으나, 여전히 2022년 이후 최고 수준을 유지하고 있습니다. 미국 평균 휘발유 가격은 갤런당 $4를 돌파하며 소비자에 대한 영향도 확대되고 있습니다.</div>
         <div class="why-box negative">
           <span class="why-icon">⚠️</span>
-          <div><span class="why-label">なぜ重要か:</span> 原油の歴史的急騰はインフレ再燃リスクを高め、FRBの利下げ見通しを複雑化させる。企業の輸送・製造コストにも直結し、Q2決算への影響が懸念される。</div>
+          <div><span class="why-label">왜 중요한가:</span> 원유의 역사적 급등은 인플레이션 재점화 리스크를 높이며, 연준의 금리 인하 전망을 복잡하게 만듭니다. 기업의 운송 및 제조 비용에도 직결되어 2분기 실적에 대한 우려가 커지고 있습니다.</div>
         </div>
       </div>
 
-      <!-- ニュース4: 中国・パキスタン和平案 -->
+      <!-- 뉴스4: 중국·파키스탄 평화안 -->
       <div class="news-card">
         <div class="news-card-img-wrap">
-          <img class="news-card-img" src="https://images.pexels.com/photos/29232453/pexels-photo-29232453.jpeg?auto=compress&cs=tinysrgb&w=800" alt="ドバイ上空からのペルシャ湾の航空写真" loading="lazy">
+          <img class="news-card-img" src="https://images.pexels.com/photos/29232453/pexels-photo-29232453.jpeg?auto=compress&cs=tinysrgb&w=800" alt="두바이 상공에서 본 페르시아만 항공사진" loading="lazy">
           <span class="news-card-img-caption">Photo: Pexels</span>
         </div>
         <div class="news-card-meta">
           <span class="news-card-tag geopolitics">GEOPOLITICS</span>
           <span class="news-card-source">Axios / Bloomberg / Al Jazeera</span>
         </div>
-        <div class="news-card-title">中国・パキスタン、5カ条和平ロードマップ発表 — 米主導の戦争に仲介の異例の展開</div>
-        <div class="news-card-excerpt">パキスタンのイスハク・ダール外相と中国の王毅外相が北京で会談し、イラン戦争の5カ条和平イニシアチブを発表した。即時停戦と人道支援、和平交渉の開始、交渉中の武力行使禁止、エネルギー・水・核インフラへの攻撃停止、ホルムズ海峡の民間・商業船舶の安全な通航回復を求めている。米国が主導する軍事作戦に対して中国が仲介に乗り出すのは極めて異例。パキスタンは間接的ながらワシントン・テヘラン間の「構造化されたメッセージ交換」を促進しているとされる。</div>
+        <div class="news-card-title">중국·파키스탄, 5개조 평화 로드맵 발표 — 미국 주도 전쟁에 중재 나선 이례적 전개</div>
+        <div class="news-card-excerpt">파키스탄의 이스하크 다르 외무장관과 중국의 왕이 외교부장이 베이징에서 회담을 갖고 이란 전쟁의 5개조 평화 이니셔티브를 발표했습니다. 즉각적인 휴전과 인도적 지원, 평화 협상 개시, 협상 중 무력 사용 금지, 에너지·수자원·핵 인프라에 대한 공격 중단, 호르무즈 해협의 민간 및 상업 선박 안전 항행 회복을 요구하고 있습니다. 미국이 주도하는 군사작전에 대해 중국이 중재에 나선 것은 매우 이례적입니다. 파키스탄은 간접적이나마 워싱턴-테헤란 간의 '구조화된 메시지 교환'을 촉진하고 있는 것으로 알려졌습니다.</div>
         <div class="why-box default">
           <span class="why-icon">📌</span>
-          <div><span class="why-label">なぜ重要か:</span> 中国が米国の軍事行動に対する和平仲介に動いたことは、国際秩序の多極化を象徴する出来事。ホルムズ海峡の通航回復は原油市場の安定に直結する。</div>
+          <div><span class="why-label">왜 중요한가:</span> 중국이 미국의 군사 행동에 대한 평화 중재에 나선 것은 국제질서의 다극화를 상징하는 사건입니다. 호르무즈 해협의 항행 회복은 원유 시장 안정에 직결됩니다.</div>
         </div>
       </div>
 
-      <!-- ニュース5: Unilever-McCormick合併 -->
+      <!-- 뉴스5: Unilever-McCormick 합병 -->
       <div class="news-card">
         <div class="news-card-img-wrap">
-          <img class="news-card-img" src="https://images.pexels.com/photos/264636/pexels-photo-264636.jpeg?auto=compress&cs=tinysrgb&w=800" alt="スーパーマーケットの食品売り場" loading="lazy">
+          <img class="news-card-img" src="https://images.pexels.com/photos/264636/pexels-photo-264636.jpeg?auto=compress&cs=tinysrgb&w=800" alt="슈퍼마켓 식품 매장" loading="lazy">
           <span class="news-card-img-caption">Photo: Pexels</span>
         </div>
         <div class="news-card-meta">
           <span class="news-card-tag economy">ECONOMY</span>
           <span class="news-card-source">CNBC / Reuters</span>
         </div>
-        <div class="news-card-title">Unilever-McCormick、$650億の食品メガ合併 — 史上2番目の規模</div>
-        <div class="news-card-excerpt">UnileverがMcCormickとの$650億規模の合併を発表した。<span class="term">Reverse Morris Trust<span class="tip"><span class="tip-title">Reverse Morris Trust</span>企業がタックスフリーで事業部門をスピンオフし、別の企業と合併させる取引構造。売り手側の税負担を大幅に軽減できるため、大型M&amp;Aで頻繁に使われる。</span></span>構造を採用し、Unileverの食品部門（Knorr、Hellmann's等）をスピンオフしてMcCormickと統合する。Unilever株主が合併会社の65%を保有し、Unileverには$157億の現金が支払われる。食品業界で史上2番目に大きい取引だが、市場は統合リスクや成長性への懐疑から売りで反応。UL -5.0%、MKC -5.9%と両社ともに下落した。取引完了は2027年半ばの見通し。</div>
+        <div class="news-card-title">Unilever-McCormick, $650억 식품 메가 합병 — 역대 2번째 규모</div>
+        <div class="news-card-excerpt">Unilever가 McCormick과의 $650억 규모 합병을 발표했습니다. <span class="term">Reverse Morris Trust<span class="tip"><span class="tip-title">Reverse Morris Trust</span>기업이 비과세로 사업 부문을 분사한 뒤 다른 기업과 합병시키는 거래 구조입니다. 매도측의 세금 부담을 대폭 경감할 수 있어 대형 M&amp;A에서 자주 활용됩니다.</span></span> 구조를 채택하여, Unilever의 식품 부문(Knorr, Hellmann's 등)을 분사하여 McCormick과 통합합니다. Unilever 주주가 합병 회사의 65%를 보유하며, Unilever에는 $157억의 현금이 지급됩니다. 식품 업계에서 역대 2번째로 큰 거래이나, 시장은 통합 리스크와 성장성에 대한 회의감으로 매도세로 반응했습니다. UL -5.0%, MKC -5.9%로 양사 모두 하락했습니다. 거래 완료는 2027년 중반 전망입니다.</div>
         <div class="why-box warning">
           <span class="why-icon">⚠️</span>
-          <div><span class="why-label">なぜ重要か:</span> 食品業界の大型再編は消費者物価やブランド戦略に影響。$650億という規模は市場の統合トレンドを加速させる可能性がある。</div>
+          <div><span class="why-label">왜 중요한가:</span> 식품 업계의 대형 재편은 소비자 물가와 브랜드 전략에 영향을 미칩니다. $650억이라는 규모는 시장의 통합 트렌드를 가속화할 가능성이 있습니다.</div>
         </div>
       </div>
 
-      <!-- ニュース6: Nike Q3 -->
+      <!-- 뉴스6: Nike Q3 -->
       <div class="news-card">
         <div class="news-card-img-wrap">
-          <img class="news-card-img" src="https://images.pexels.com/photos/2529157/pexels-photo-2529157.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Nikeスニーカー" loading="lazy">
+          <img class="news-card-img" src="https://images.pexels.com/photos/2529157/pexels-photo-2529157.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Nike 운동화" loading="lazy">
           <span class="news-card-img-caption">Photo: Pexels</span>
         </div>
         <div class="news-card-meta">
           <span class="news-card-tag earnings">EARNINGS</span>
           <span class="news-card-source">CNBC / Nike IR</span>
         </div>
-        <div class="news-card-title">Nike Q3決算 — 売上・EPSビートも、中国市場20%減警告で時間外下落</div>
-        <div class="news-card-excerpt">Nikeが2026年度Q3（12-2月期）決算を発表。売上$112.8億（予想$112.4億）、EPS $0.35（予想$0.31）と上振れた。Nike Brand売上は前年比+1%の$110億で、ホールセールが+5%と回復を見せた一方、Nike Directは-4%の$45億と苦戦。粗利益率は関税影響で130bp低下の40.2%。問題はQ4ガイダンスで、売上2-4%減を見通し（ウォール街予想は+1.9%）。特に中国市場は当四半期20%減の警告を出した。</div>
+        <div class="news-card-title">Nike Q3 실적 — 매출·EPS 상회에도 중국 시장 20% 감소 경고로 시간외 하락</div>
+        <div class="news-card-excerpt">Nike가 2026 회계연도 Q3(12-2월) 실적을 발표했습니다. 매출 $112.8억(예상 $112.4억), EPS $0.35(예상 $0.31)로 상회했습니다. Nike Brand 매출은 전년 대비 +1%인 $110억으로, 홀세일이 +5%의 회복세를 보인 반면 Nike Direct는 -4%의 $45억으로 부진했습니다. 매출총이익률은 관세 영향으로 130bp 하락한 40.2%였습니다. 문제는 Q4 가이던스로, 매출 2-4% 감소를 전망했습니다(월가 예상 +1.9%). 특히 중국 시장은 당분기 20% 감소 경고를 내놓았습니다.</div>
         <div class="why-box negative">
           <span class="why-icon">⚠️</span>
-          <div><span class="why-label">なぜ重要か:</span> Nikeの中国20%減警告は、関税・地政学リスクが消費財セクターに直接的な打撃を与えていることを示す。グローバルブランドの「チャイナリスク」が再び意識される。</div>
+          <div><span class="why-label">왜 중요한가:</span> Nike의 중국 20% 감소 경고는 관세·지정학적 리스크가 소비재 섹터에 직접적인 타격을 주고 있음을 보여줍니다. 글로벌 브랜드의 '차이나 리스크'가 다시 부각되고 있습니다.</div>
         </div>
       </div>
 
-      <!-- ニュース7: バフェット -->
+      <!-- 뉴스7: 버핏 -->
       <div class="news-card">
         <div class="news-card-img-wrap">
-          <img class="news-card-img" src="https://images.pexels.com/photos/28254662/pexels-photo-28254662.jpeg?auto=compress&cs=tinysrgb&w=800" alt="ニューヨーク証券取引所のファサード" loading="lazy">
+          <img class="news-card-img" src="https://images.pexels.com/photos/28254662/pexels-photo-28254662.jpeg?auto=compress&cs=tinysrgb&w=800" alt="뉴욕증권거래소 정면" loading="lazy">
           <span class="news-card-img-caption">Photo: Pexels</span>
         </div>
         <div class="news-card-meta">
           <span class="news-card-tag economy">ECONOMY</span>
           <span class="news-card-source">CNBC</span>
         </div>
-        <div class="news-card-title">バフェット「Apple売るの早すぎた」— 税引前$1,000億超の利益を公表</div>
-        <div class="news-card-excerpt">ウォーレン・バフェットはCNBCのインタビューで「Apple株を売るのが早すぎた」と認めた。バークシャー・ハサウェイはApple株で税引前$1,000億以上の利益を上げたが、昨年末時点でもなお$619.6億相当を保有する最大ポジションだ。「この市場では買わないが、安くなれば大量に買うだろう」と述べ、Tim Cookの経営手腕を高く評価。「Steve Jobsにはできないことをやった。Timは素晴らしいマネージャーだ」と語った。また、バークシャーが$170億の米国債を購入したことも明らかにした。</div>
+        <div class="news-card-title">버핏 "Apple을 너무 일찍 팔았다" — 세전 $1,000억 초과 수익 공개</div>
+        <div class="news-card-excerpt">워런 버핏은 CNBC 인터뷰에서 "Apple 주식을 너무 일찍 팔았다"고 인정했습니다. 버크셔 해서웨이는 Apple 주식으로 세전 $1,000억 이상의 수익을 올렸으나, 작년 말 기준 여전히 $619.6억 상당을 보유하는 최대 포지션입니다. "이 시장에서는 사지 않겠지만, 싸지면 대량으로 살 것"이라고 말했으며, 팀 쿡의 경영 수완을 높이 평가했습니다. "스티브 잡스가 할 수 없었던 일을 해냈다. 팀은 훌륭한 매니저다"라고 밝혔습니다. 또한 버크셔가 $170억의 미국 국채를 매입했다는 사실도 공개했습니다.</div>
         <div class="why-box default">
           <span class="why-icon">📌</span>
-          <div><span class="why-label">なぜ重要か:</span> 世界最高の投資家がAppleの売却を後悔するのは珍しい。バフェットの「この市場では買わない」発言は、現在の株価水準への慎重姿勢を示唆する。</div>
+          <div><span class="why-label">왜 중요한가:</span> 세계 최고의 투자자가 Apple 매각을 후회하는 것은 이례적입니다. 버핏의 "이 시장에서는 사지 않겠다"는 발언은 현재 주가 수준에 대한 신중한 입장을 시사합니다.</div>
         </div>
       </div>
 
@@ -1508,27 +1514,27 @@ body {
   <section class="section-gap">
     <div class="section-label">
       <span class="section-label-icon">🖊️</span>
-      <span class="section-label-text">編集部の目線</span>
+      <span class="section-label-text">편집부의 시각</span>
       <span class="section-label-line"></span>
     </div>
 
     <div class="editorial-card">
       <div class="ed-hero">
         <div class="ed-badge">✍️ EDITORIAL</div>
-        <h2 class="editorial-headline">「2〜3週間」の真意 — トランプの撤退シグナルとペゼシュキアンの条件を読み解く</h2>
-        <div class="editorial-sub">トランプの撤退シグナルとペゼシュキアンの条件を読み解く</div>
+        <h2 class="editorial-headline">"2~3주"의 진의 — 트럼프의 철수 시그널과 페제시키안의 조건을 읽다</h2>
+        <div class="editorial-sub">트럼프의 철수 시그널과 페제시키안의 조건을 읽다</div>
       </div>
       <div class="editorial-body">
-        <p>3月31日、イラン戦争をめぐる2つの重要な発言が市場を動かした。しかし、楽観は禁物だ。両者の発言を仔細に分析すると、停戦への道のりは表面上の印象よりも複雑であることが見えてくる。</p>
-        <p><strong>トランプの撤退シグナル:</strong> 「2〜3週間で撤退する」――この発言の背景には、戦争開始から5週間を経た国内世論の変化がある。米ガソリン価格が$4を突破し、中間選挙を見据えた共和党内からも懸念の声が上がり始めている。NPRは「トランプのイラン戦争に関する混合メッセージは共和党に結果をもたらす可能性がある」と報じた。同時に「取引が成立しなければイランの電力施設と油井を完全に破壊する」という脅しも続けており、撤退とエスカレーションの両カードを同時に切る交渉戦術と読むべきだろう。</p>
-        <p><strong>ペゼシュキアンの条件:</strong> 「必要な意志を持っている」とEU議長に伝えたペゼシュキアン大統領だが、3つの条件を付している。(1) イランの正当な権利の承認、(2) 賠償金の支払い、(3) 将来の侵略を防ぐ国際的保証。特に (2) の賠償要求は米国が受け入れる可能性が極めて低く、交渉の最大障壁となる。さらに、PJ Mediaは「ペゼシュキアンはIRGC（革命防衛隊）に事実上『人質』にされており、トランプとの直接交渉を阻まれている」と報じている。大統領の「意志」と体制の「意志」が一致しているかは不透明だ。</p>
-        <p><strong>3つのシナリオ:</strong><br>
-        シナリオA（楽観）: 4月中旬までに停戦合意。ホルムズ海峡再開、原油$80台に急落。確率: 20%<br>
-        シナリオB（基本）: 部分的停戦（攻撃の一時停止）だが、ホルムズ海峡は段階的に再開。原油$90前後に低下。確率: 50%<br>
-        シナリオC（悲観）: 交渉決裂、トランプがインフラ攻撃を実行。原油$130超、VIX 40台。確率: 30%</p>
-        <p>市場は現在シナリオAとBの間を織り込んでいるが、シナリオCのテールリスクを過小評価している可能性がある。4月6日に設定されたハルグ島（イランの主要石油輸出拠点）に関する期限も注視すべきポイントだ。</p>
+        <p>3월 31일, 이란 전쟁을 둘러싼 두 가지 중요한 발언이 시장을 움직였습니다. 그러나 낙관은 금물입니다. 양측의 발언을 면밀히 분석하면, 휴전까지의 길은 표면적인 인상보다 훨씬 복잡하다는 것을 알 수 있습니다.</p>
+        <p><strong>트럼프의 철수 시그널:</strong> "2~3주 내에 철수한다" — 이 발언의 배경에는 전쟁 개시 후 5주를 경과한 국내 여론의 변화가 있습니다. 미국 휘발유 가격이 $4를 돌파하고, 중간선거를 앞두고 공화당 내에서도 우려의 목소리가 나오기 시작했습니다. NPR은 "트럼프의 이란 전쟁에 관한 혼재된 메시지가 공화당에 결과를 가져올 수 있다"고 보도했습니다. 동시에 "거래가 성사되지 않으면 이란의 발전시설과 유정을 완전히 파괴하겠다"는 위협도 계속하고 있어, 철수와 에스컬레이션 양쪽 카드를 동시에 꺼내는 협상 전술로 읽어야 할 것입니다.</p>
+        <p><strong>페제시키안의 조건:</strong> "필요한 의지를 가지고 있다"고 EU 의장에게 전한 페제시키안 대통령이지만, 세 가지 조건을 내걸었습니다. (1) 이란의 정당한 권리 인정, (2) 배상금 지급, (3) 장래 침략을 방지할 국제적 보장. 특히 (2)의 배상 요구는 미국이 수용할 가능성이 극히 낮아 협상의 최대 장벽이 될 것입니다. 더욱이 PJ Media는 "페제시키안이 IRGC(혁명수비대)에 사실상 '인질'로 잡혀 있으며 트럼프와의 직접 협상이 차단되고 있다"고 보도했습니다. 대통령의 '의지'와 체제의 '의지'가 일치하는지는 불투명합니다.</p>
+        <p><strong>3가지 시나리오:</strong><br>
+        시나리오A(낙관): 4월 중순까지 휴전 합의. 호르무즈 해협 재개, 원유 $80대로 급락. 확률: 20%<br>
+        시나리오B(기본): 부분적 휴전(공격 일시 중단)이나 호르무즈 해협은 단계적으로 재개. 원유 $90 전후로 하락. 확률: 50%<br>
+        시나리오C(비관): 협상 결렬, 트럼프가 인프라 공격 실행. 원유 $130 이상, VIX 40대. 확률: 30%</p>
+        <p>시장은 현재 시나리오A와 B 사이를 반영하고 있으나, 시나리오C의 테일 리스크를 과소평가하고 있을 가능성이 있습니다. 4월 6일로 설정된 하르그섬(이란의 주요 석유 수출 거점) 관련 기한도 주시해야 할 포인트입니다.</p>
       </div>
-      <div class="editorial-note">※ 本稿は特定の有価証券の売買推奨を行うものではありません。投資判断はご自身の責任においてお願いします。</div>
+      <div class="editorial-note">※ 본 기사는 특정 유가증권의 매매를 추천하는 것이 아닙니다. 투자 판단은 본인의 책임 하에 내려 주시기 바랍니다.</div>
     </div>
   </section>
 
@@ -1536,42 +1542,42 @@ body {
   <section class="section-gap">
     <div class="section-label">
       <span class="section-label-icon">📚</span>
-      <span class="section-label-text">今日のキーワード</span>
+      <span class="section-label-text">오늘의 키워드</span>
       <span class="section-label-line"></span>
     </div>
 
     <div class="keyword-card">
-      <div class="keyword-title">シリコンフォトニクス</div>
+      <div class="keyword-title">실리콘 포토닉스</div>
       <div class="keyword-sub">Silicon Photonics</div>
       <div class="keyword-overview">
-        シリコンフォトニクスとは、従来の銅配線の代わりに光（レーザー）を使ってデータを伝送する半導体技術である。シリコン基板上に光導波路やレーザー、光検出器を集積し、電気信号と光信号を高速に変換することで、データセンター内のサーバー間通信やAI学習クラスターの相互接続を飛躍的に高速化・省電力化する。AI時代に必要なデータ移動量が爆発的に増加する中、銅配線の帯域幅・消費電力の限界を突破する「次世代のインターコネクト技術」として、半導体業界が最も注力する分野の一つとなっている。
+        실리콘 포토닉스는 기존 구리 배선 대신 빛(레이저)을 사용하여 데이터를 전송하는 반도체 기술입니다. 실리콘 기판 위에 광도파로, 레이저, 광검출기를 집적하여 전기 신호와 광 신호를 고속으로 변환함으로써 데이터센터 내 서버 간 통신과 AI 학습 클러스터 상호 연결을 비약적으로 고속화·저전력화합니다. AI 시대에 필요한 데이터 이동량이 폭발적으로 증가하는 가운데, 구리 배선의 대역폭·소비 전력 한계를 돌파하는 '차세대 인터커넥트 기술'로서 반도체 업계가 가장 주력하는 분야 중 하나가 되었습니다.
       </div>
 
       <div class="keyword-perspectives">
         <div class="keyword-perspective">
           <div class="keyword-perspective-icon">💡</div>
-          <div class="keyword-perspective-label">なぜ光なのか</div>
-          <div class="keyword-perspective-text">銅配線は距離が長くなると信号が劣化し、速度を上げると発熱も増える。光は電気抵抗がなく、長距離でも信号劣化がほぼゼロ。1本の光ファイバーで銅配線の数百倍のデータを運べるため、AIの大規模学習に不可欠な超高速データ転送を実現する。</div>
+          <div class="keyword-perspective-label">왜 빛인가</div>
+          <div class="keyword-perspective-text">구리 배선은 거리가 길어지면 신호가 열화되고, 속도를 높이면 발열도 증가합니다. 빛은 전기 저항이 없어 장거리에서도 신호 열화가 거의 제로입니다. 하나의 광섬유로 구리 배선의 수백 배 데이터를 전송할 수 있어 AI 대규모 학습에 필수적인 초고속 데이터 전송을 실현합니다.</div>
         </div>
         <div class="keyword-perspective">
           <div class="keyword-perspective-icon">🏭</div>
-          <div class="keyword-perspective-label">業界の動き</div>
-          <div class="keyword-perspective-text">NVIDIAがMarvellに$2B出資し共同開発を発表したほか、Broadcom、Intel、TSMCも独自のシリコンフォトニクス技術を開発中。Aehr Test Systemsがシリコンフォトニクス用トランシーバーの試験装置受注で+23%急騰するなど、サプライチェーン全体に投資マネーが流入している。</div>
+          <div class="keyword-perspective-label">업계 동향</div>
+          <div class="keyword-perspective-text">NVIDIA가 Marvell에 $2B를 출자하고 공동 개발을 발표한 것 외에도 Broadcom, Intel, TSMC도 독자적인 실리콘 포토닉스 기술을 개발 중입니다. Aehr Test Systems는 실리콘 포토닉스용 트랜시버 테스트 장비 수주로 +23% 급등하는 등 공급망 전체에 투자 자금이 유입되고 있습니다.</div>
         </div>
         <div class="keyword-perspective">
           <div class="keyword-perspective-icon">📊</div>
-          <div class="keyword-perspective-label">市場規模</div>
-          <div class="keyword-perspective-text">シリコンフォトニクス市場は2025年の約$20億から2030年には$80億超へと年率30%以上で成長すると予測されている。特にAIデータセンター向けの需要が最大の成長ドライバーだ。</div>
+          <div class="keyword-perspective-label">시장 규모</div>
+          <div class="keyword-perspective-text">실리콘 포토닉스 시장은 2025년 약 $20억에서 2030년 $80억 이상으로 연평균 30% 이상 성장할 것으로 전망됩니다. 특히 AI 데이터센터 수요가 최대 성장 동력입니다.</div>
         </div>
       </div>
 
       <div class="keyword-relation">
-        <span class="keyword-relation-label">📌 今日との関連</span>
-        本日発表されたNVIDIA-Marvellの$20億パートナーシップの中核が、まさにシリコンフォトニクスの共同開発だ。NVIDIAの「NVLink Fusion」構想は、光インターコネクトによってAIチップ同士を超高速で接続する次世代アーキテクチャを目指している。MRVLが+12.8%急騰したのは、この技術が半導体業界の次なる成長フロンティアであることを市場が認識した証拠といえる。
+        <span class="keyword-relation-label">📌 오늘과의 연관성</span>
+        오늘 발표된 NVIDIA-Marvell $20억 파트너십의 핵심이 바로 실리콘 포토닉스 공동 개발입니다. NVIDIA의 'NVLink Fusion' 구상은 광 인터커넥트를 통해 AI 칩 간 초고속 연결을 목표로 하는 차세대 아키텍처입니다. MRVL이 +12.8% 급등한 것은 이 기술이 반도체 업계의 다음 성장 프런티어임을 시장이 인식한 증거라 할 수 있습니다.
       </div>
 
       <a class="keyword-glossary-link" href="https://atlasfinancials.github.io/ui-kabu-times/glossary/">
-        📖 用語辞典で詳しく見る →
+        📖 용어사전에서 자세히 보기 →
       </a>
     </div>
   </section>
@@ -1580,47 +1586,47 @@ body {
   <section class="section-gap">
     <div class="section-label">
       <span class="section-label-icon">📅</span>
-      <span class="section-label-text">今週の注目イベント</span>
+      <span class="section-label-text">금주 주요 이벤트</span>
       <span class="section-label-line"></span>
     </div>
 
     <div class="calendar-list">
-      <div class="calendar-day-label">3/31（火）発表済み</div>
+      <div class="calendar-day-label">3/31(화) 발표 완료</div>
       <div class="calendar-item">
         <span class="calendar-flag">🇺🇸</span>
         <span class="calendar-importance high">HIGH</span>
-        <span class="calendar-event">消費者信頼感指数</span>
-        <span class="calendar-detail">前回: 98.3 / 予想: 94.0</span>
+        <span class="calendar-event">소비자 신뢰지수</span>
+        <span class="calendar-detail">전회: 98.3 / 예상: 94.0</span>
       </div>
 
-      <div class="calendar-day-label">4/1（水）本日</div>
+      <div class="calendar-day-label">4/1(수) 오늘</div>
       <div class="calendar-item">
         <span class="calendar-flag">🇺🇸</span>
         <span class="calendar-importance high">HIGH</span>
-        <span class="calendar-event">ISM製造業PMI（3月）</span>
-        <span class="calendar-detail">前回: 52.4 / 予想: 51.5</span>
+        <span class="calendar-event">ISM 제조업 PMI (3월)</span>
+        <span class="calendar-detail">전회: 52.4 / 예상: 51.5</span>
       </div>
 
-      <div class="calendar-day-label">4/2（木）</div>
+      <div class="calendar-day-label">4/2(목)</div>
       <div class="calendar-item">
         <span class="calendar-flag">🇺🇸</span>
         <span class="calendar-importance medium">MEDIUM</span>
-        <span class="calendar-event">ADP雇用統計</span>
-        <span class="calendar-detail">前回: 140K / 予想: 135K</span>
+        <span class="calendar-event">ADP 고용 통계</span>
+        <span class="calendar-detail">전회: 140K / 예상: 135K</span>
       </div>
       <div class="calendar-item">
         <span class="calendar-flag">🇺🇸</span>
         <span class="calendar-importance medium">MEDIUM</span>
-        <span class="calendar-event">JOLTS求人件数</span>
-        <span class="calendar-detail">前回: 7.74M / 予想: 7.60M</span>
+        <span class="calendar-event">JOLTS 구인건수</span>
+        <span class="calendar-detail">전회: 7.74M / 예상: 7.60M</span>
       </div>
 
-      <div class="calendar-day-label">4/3（金）聖金曜日 — 株式市場休場</div>
+      <div class="calendar-day-label">4/3(금) 성금요일 — 주식시장 휴장</div>
       <div class="calendar-item">
         <span class="calendar-flag">🇺🇸</span>
         <span class="calendar-importance high">HIGH</span>
-        <span class="calendar-event"><span class="term">雇用統計（NFP）<span class="tip"><span class="tip-title">非農業部門雇用者数（NFP）</span>米労働省が毎月第1金曜日に発表する雇用統計の中核指標。農業以外の全産業の雇用者数の増減を示し、FRBの金融政策判断に大きく影響する。</span></span>（3月）</span>
-        <span class="calendar-detail">前回: 151K / 予想: 140K ※株式市場は聖金曜日で休場</span>
+        <span class="calendar-event"><span class="term">고용 통계(NFP)<span class="tip"><span class="tip-title">비농업 부문 고용자 수(NFP)</span>미국 노동부가 매월 첫째 금요일에 발표하는 고용 통계의 핵심 지표입니다. 농업을 제외한 전 산업의 고용자 수 증감을 나타내며, 연준의 통화정책 판단에 큰 영향을 미칩니다.</span></span> (3월)</span>
+        <span class="calendar-detail">전회: 151K / 예상: 140K ※주식시장은 성금요일로 휴장</span>
       </div>
     </div>
   </section>
@@ -1629,11 +1635,11 @@ body {
   <section class="section-gap">
     <div class="section-label">
       <span class="section-label-icon">📊</span>
-      <span class="section-label-text">決算（3/31発表済み）</span>
+      <span class="section-label-text">실적 발표 (3/31 발표 완료)</span>
       <span class="section-label-line"></span>
     </div>
 
-    <div style="font-size:13px;font-weight:700;color:var(--navy-mid);margin-bottom:10px;letter-spacing:.02em">🌙 AMC（アフターマーケット）— 発表済み</div>
+    <div style="font-size:13px;font-weight:700;color:var(--navy-mid);margin-bottom:10px;letter-spacing:.02em">🌙 AMC(애프터마켓) — 발표 완료</div>
     <div class="earnings-grid">
       <div class="earnings-item" data-ticker="NKE">
         <div class="earnings-item-header">
@@ -1641,12 +1647,12 @@ body {
           <span class="earnings-item-timing amc">AMC</span>
         </div>
         <div class="earnings-item-name">Nike</div>
-        <div class="earnings-item-sector">スポーツアパレル</div>
+        <div class="earnings-item-sector">스포츠 어패럴</div>
         <div class="earnings-item-consensus">
-          <span>EPS: $0.35 (予想$0.31)</span>
-          <span>売上: $11.28B (予想$11.24B)</span>
+          <span>EPS: $0.35 (예상 $0.31)</span>
+          <span>매출: $11.28B (예상 $11.24B)</span>
         </div>
-        <div class="earnings-item-note">★ ビート（ただしQ4ガイダンス下方修正・中国20%減警告）</div>
+        <div class="earnings-item-note">★ 상회 (단, Q4 가이던스 하향 조정·중국 20% 감소 경고)</div>
       </div>
     </div>
   </section>
@@ -1655,20 +1661,20 @@ body {
 
 <!-- ===== Disclaimer ===== -->
 <div class="disclaimer-section">
-  <p class="disclaimer-text">本コンテンツはU&amp;I株式会社が提供する教育目的の情報提供であり、特定の有価証券の売買を推奨・助言するものではありません。掲載情報の正確性・完全性・最新性を保証するものではなく、投資に関する最終的な判断はご自身の責任においてお願いいたします。当社は金融商品取引業（投資助言・代理業）の登録を受けておりません。</p>
+  <p class="disclaimer-text">본 콘텐츠는 U&amp;I 주식회사가 제공하는 교육 목적의 정보이며, 특정 유가증권의 매매를 추천 또는 조언하는 것이 아닙니다. 게재 정보의 정확성·완전성·최신성을 보장하지 않으며, 투자에 관한 최종적인 판단은 본인의 책임 하에 내려 주시기 바랍니다. 당사는 금융투자업(투자자문·대리업) 등록을 받지 않았습니다.</p>
 </div>
 
 <!-- ===== Footer ===== -->
 <footer class="paper-footer">
   <div class="footer-day-nav">
-    <a href="../03/31.html">← 前号（3月31日）</a>
+    <a href="../03/31.html">← 이전호 (3월 31일)</a>
   </div>
   <nav class="footer-nav">
-    <a href="https://atlasfinancials.github.io/ui-kabu-reports/about.html">Atlasとは</a>
-    <a href="https://atlasfinancials.github.io/ui-kabu-reports/">📊 決算分析</a>
-    <a href="https://atlasfinancials.github.io/ui-kabu-times/glossary/">📖 用語辞典</a>
+    <a href="https://atlasfinancials.github.io/ui-kabu-reports/about.html">Atlas 소개</a>
+    <a href="https://atlasfinancials.github.io/ui-kabu-reports/">📊 실적 분석</a>
+    <a href="https://atlasfinancials.github.io/ui-kabu-times/glossary/">📖 용어사전</a>
     <a href="https://atlasfinancials.github.io/ui-kabu-reports/faq.html">FAQ</a>
-    <a href="https://atlasfinancials.github.io/ui-kabu-reports/terms.html">利用規約</a>
+    <a href="https://atlasfinancials.github.io/ui-kabu-reports/terms.html">이용약관</a>
   </nav>
   <div class="footer-copy">&copy; 2026 Atlas Daily — U&amp;I CO., LTD.</div>
 </footer>
@@ -1714,7 +1720,7 @@ body {
     link.href = portalBase + ticker + '/';
     link.target = '_blank';
     link.className = 'earnings-item-link';
-    link.innerHTML = '📊 過去の決算分析を見る →';
+    link.innerHTML = '📊 과거 실적 분석 보기 →';
     item.appendChild(link);
   });
 })();
@@ -1862,6 +1868,5 @@ function cycleFontScale(){
   updateFontBtns(level);
 })();
 </script>
-
 </body>
 </html>
